@@ -1,0 +1,75 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(rgb(144, 240, 219),rgb(207, 145, 145));
+    background-repeat: no-repeat;
+    margin: 10px 10px 10px 20px;
+    padding-top: 20px;
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 0.805);
+    background-size:cover;
+    height: 98vh;
+    font-weight: bold;
+   
+}
+.login_box{
+    background-color: rgba(241, 135, 133, 0.2);
+    display: flex;
+    width: 30%;
+    height: 95%;
+    font-family:cursive;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 5px rgba(87, 82, 82, 0.3);
+    height: 60vh;
+}
+form{
+    padding: 30px;
+}
+#name[type=text]{
+    border: none;
+    border-bottom:1px solid black ;
+    background-color: transparent;
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+#mail[type=email]{
+    border: none;
+    border-bottom:1px solid black ;
+    background-color: transparent;
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+#pswd[type=password]{
+    border: none;
+    border-bottom:1px solid black ;
+    background-color: transparent;
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+button{
+    margin-left: 40%;
+    margin-top: 15px;
+    background-color: rgba(77, 229, 229, 0.551);
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+button:hover{
+    background-color: rgba(121, 121, 201, 0.322);
+}
+input:focus{
+    
+    outline-offset: 0px;
+    outline: none;
+}
